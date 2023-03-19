@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lev3_9: Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <section>
+            <form action="" onsubmit="return false">
+                <h2>How many rounds?</h2>
+                <div>
+                    <input type="radio" name="round" value="5" id="five" onchange="displayRounds()">
+                    <label for="">5</label>
+                    <input type="radio" name="round" value="10" id="ten" onchange="displayRounds()">
+                    <label for="">10</label>
+                </div>
+                <div>
+                    <input type="radio" name="round" value="15" id="fifteen" onchange="displayRounds()">
+                    <label for="">15</label>
+                    <input type="radio" name="round" value="20" id="twenty" onchange="displayRounds()">
+                    <label for="">20</label>
+                </div>
+                <p id="showRounds"></p>
+            </form>
+
+            <div class="countMoves"></div>
+
+            <div class="results">
+                <p class="output_text"></p>
+                <h3 class="usersPick">Your choice:</h3>
+                <p class="userResult"></p>
+
+                <h3 class="computersPick">Computers choice:</h3>
+                <p class="computerResult"></p>
+            </div>
+
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+            </div>
+
+            <div class="resultText"></div>
+
+            <a href="#" class="restart">RESTART</a>
+
+        </section>
+    </main>
+
+    <script src="./assets/js/new_main.js"></script>
+</body>
+
+</html>
