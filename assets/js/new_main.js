@@ -25,7 +25,7 @@ const fullGame = () => {
         const userOptions = document.querySelectorAll(".options button");
 
         // COMPUTER Options
-        const computerOptions = ["rock", "paper", "scissors"];
+        const computerOptions = ["rock 🪨", "paper 📄", "scissors ✂️"];
 
         userOptions.forEach(option => {
             option.addEventListener('click', function () {
@@ -72,8 +72,8 @@ const fullGame = () => {
             return;
         }
 
-        if (user === "rock") {
-            if (computerChoice === "scissors") {
+        if (user === "rock 🪨") {
+            if (computerChoice === "scissors ✂️") {
                 text.textContent = "YOU WIN!"
                 text.style.color = 'green';
                 userScore++;
@@ -88,8 +88,8 @@ const fullGame = () => {
             }
         }
 
-        if (user === "paper") {
-            if (computerChoice === "scissors") {
+        if (user === "paper 📄") {
+            if (computerChoice === "scissors ✂️") {
                 text.textContent = "YOU LOOSE"
                 text.style.color = 'red';
                 computerScore++
@@ -104,8 +104,8 @@ const fullGame = () => {
             }
         }
 
-        if (user === "scissors") {
-            if (computerChoice === "rock") {
+        if (user === "scissors✂️") {
+            if (computerChoice === "rock 🪨") {
                 text.textContent = "YOU LOOSE"
                 text.style.color = 'red';
                 computerScore++
