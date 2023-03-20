@@ -51,7 +51,7 @@ const fullGame = () => {
                 else if (round[i].value == 10 && moves == 10) {
                     gameOver(userOptions, countMoves)
                 }
-                else if (round[i].value == 20 && moves == 20) {
+                else if (round[i].value == 15 && moves == 15) {
                     gameOver(userOptions, countMoves)
                 }
                 else if (round[i].value == 20 && moves == 20) {
@@ -129,7 +129,7 @@ const fullGame = () => {
         computerCounter.textContent = `${"Score: "}`.concat(computerScore);
     }
     playGame();
-    whoWins();
+
 
     const gameOver = (userOptions) => {
 
@@ -157,7 +157,6 @@ const fullGame = () => {
         }
     }
 }
-
 fullGame()
 
 // RESTART BUTTON

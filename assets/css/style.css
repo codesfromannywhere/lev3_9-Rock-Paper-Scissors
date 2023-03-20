@@ -17,10 +17,8 @@ main {
 }
 
 main h1 {
-margin: 7vh 0 7vh 0;
+margin: 5vh 0 4vh 0;
 }
-
-
 
 section {
     background-color: #a9c7c5;
@@ -30,7 +28,6 @@ section {
     max-width: 40vw;
     margin: 5vh auto;
     padding: 5vh 0;
-
 }
 
 section form {
@@ -44,6 +41,7 @@ section form {
 section form div {
     padding-bottom: 2vh;
 }
+
 section form div label {
     padding-right: 2vw;
 }
@@ -55,11 +53,11 @@ section form h2{
 .output_text {
 font-size: 2rem;    
 color: grey;
-padding: 3vh 0;
+padding-bottom: 5%;
 } 
 
 .countMoves {
-    padding: 3vh 0;
+    padding: 2vh 0;
     font-size: 2rem;
 }
 
@@ -76,6 +74,10 @@ section .results h3 {
         color: grey;
     }
 
+    section .results p {
+        padding-bottom: 4%;
+    }
+
 div button {
     background-color:whitesmoke;
     border: none;
@@ -85,8 +87,8 @@ div button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 1.5rem;
-    margin: 5vh 1vw;
+    font-size: 1.2rem;
+    margin: 5vh 0.5vw 2vh 0;
     cursor: pointer;
 }
 
